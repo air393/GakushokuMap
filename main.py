@@ -1,10 +1,11 @@
 from maps.GakushokuSample import GakushokuSample
+from maps.AiraOsusume import AiraOsusume
 from maps.Gakusyoku_mizoshita import Gakushoku_mizoshita
 from maps.k25075addgakushoku import k25075addgakushoku
 
-
 # ↓のリストには、メンバーの各オススメ学食が格納されます。
 data = [Gakushoku_mizoshita(),
+        AiraOsusume(),
         k25075addgakushoku(),
         GakushokuSample()
         
